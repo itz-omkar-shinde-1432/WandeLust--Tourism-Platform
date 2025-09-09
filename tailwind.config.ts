@@ -57,6 +57,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        tourism: {
+          ocean: "hsl(var(--tourism-ocean))",
+          sand: "hsl(var(--tourism-sand))",
+          forest: "hsl(var(--tourism-forest))",
+          sunset: "hsl(var(--tourism-sunset))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
