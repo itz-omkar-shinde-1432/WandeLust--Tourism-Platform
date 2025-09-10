@@ -112,14 +112,13 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 text-sm text-primary-foreground/80">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+919552388484</span>
               </div>
               <div className="flex items-start gap-3 text-sm text-primary-foreground/80">
                 <MapPin className="w-4 h-4 mt-0.5" />
                 <span>
-                  123 Adventure Street<br />
-                  Travel District<br />
-                  New York, NY 10001
+                  123 Adventure Street,Ranchi,<br />
+                  Zarkhand,India 834002
                 </span>
               </div>
             </div>
@@ -131,7 +130,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/80">
           <div>
-            © 2024 WanderLust Travel Agency. All rights reserved.
+            © 2025 WanderLust Travel Agency. All rights reserved.
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-primary-foreground transition-colors duration-200">
