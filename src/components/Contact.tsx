@@ -177,7 +177,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Visit Us</h3>
                     <p className="text-muted-foreground">
-                      123 Adventure Street,Ranchi<br />
+                      123 Adventure Street,Ranchi,<br />
                       Zarkhand, India 834002
                     </p>
                   </div>
