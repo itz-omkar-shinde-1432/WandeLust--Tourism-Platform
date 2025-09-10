@@ -146,7 +146,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Email Us</h3>
-                    <p className="text-muted-foreground">info@wanderlust.com</p>
+                    <p className="text-muted-foreground">omkar.shinde.work.dev@gmail.com</p>
                     <p className="text-muted-foreground">bookings@wanderlust.com</p>
                   </div>
                 </div>
@@ -161,7 +161,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Call Us</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+919552388484</p>
                     <p className="text-sm text-muted-foreground">Mon-Fri, 9AM-6PM EST</p>
                   </div>
                 </div>
@@ -178,8 +178,8 @@ const Contact = () => {
                     <h3 className="font-semibold text-foreground mb-2">Visit Us</h3>
                     <p className="text-muted-foreground">
                       123 Adventure Street<br />
-                      Travel District<br />
-                      New York, NY 10001
+                      Ranchi<br />
+                      Zarkhand, India 834002
                     </p>
                   </div>
                 </div>
