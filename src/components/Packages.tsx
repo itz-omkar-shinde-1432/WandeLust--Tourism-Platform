@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -88,14 +89,10 @@ const packages: Package[] = [
 ];
 
 const Packages = () => {
-  const scrollToContact = () => {
-    const element = document.getElementById('contact');
-    if (element) {
-      element.scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start'
-      });
-    }
+  const navigate = useNavigate();
+
+  const handleBookNow = (pkg: Package) => {
+    navigate(`/booking?package=${pkg.id}&name=${encodeURIComponent(pkg.name)}&price=${encodeURIComponent(pkg.price)}`);
   };
 
   return (
@@ -184,7 +181,7 @@ const Packages = () => {
                 <Button 
                   className="w-full bg-primary hover:bg-primary/90"
                   size="lg"
-                  onClick={scrollToContact}
+                  onClick={() => handleBookNow(pkg)}
                 >
                   Book Now
                 </Button>
